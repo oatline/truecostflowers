@@ -30,3 +30,5 @@ footer .brand-logo img{height:36px}
 .cart-total span small{display:block;font-size:10px;color:#a9958d;letter-spacing:0;text-transform:none;margin-top:4px}
 #checkoutStart:disabled{opacity:.45;cursor:not-allowed}
 footer div{flex-wrap:wrap}
+/* Keep the cookie banner out of the way while the cart, a product or checkout is open. */
+body:has(.drawer.open,.modal.open) .cookie-banner{display:none}
