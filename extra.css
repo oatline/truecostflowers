@@ -1,0 +1,32 @@
+/* Additions on top of styles.css: real logo, trust figures, reviews, richer checkout. */
+.brand-logo{display:block;line-height:0}
+.brand-logo img{display:block;height:30px;width:auto}
+footer .brand-logo img{height:36px}
+@media(max-width:380px){.brand-logo img{height:24px}}
+
+.trust{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-block:1px solid #2a1d1e;padding-block:0!important}
+.trust div{padding:34px 24px;display:flex;flex-direction:column;gap:8px;text-align:center}
+.trust b{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:clamp(30px,4vw,48px);line-height:1;color:#f1e7e2}
+.trust span{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#a9958d}
+.trust div+div{border-left:1px solid #2a1d1e}
+@media(max-width:700px){.trust{grid-template-columns:1fr}.trust div{padding:22px 16px}.trust div+div{border-left:0;border-top:1px solid #2a1d1e}}
+
+.reviews h2{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:clamp(36px,6vw,48px);line-height:.94;color:#eee5df;margin:16px 0 34px}
+.review-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.review-list blockquote{margin:0;border:1px solid #3a2829;padding:28px 26px;background:#0d0909;position:relative}
+.review-list blockquote::before{content:"“";position:absolute;top:6px;left:18px;font:500 54px/1 "Cormorant Garamond",serif;color:#bd8186}
+.review-list p{margin:26px 0 0;font-size:15px;line-height:1.7;color:#d9ccc6}
+@media(max-width:900px){.review-list{grid-template-columns:1fr}}
+
+.form-grid select{background:#0a0707;border:1px solid #4b3334;padding:12px;color:#eee;outline:none;appearance:auto}
+.form-grid input:focus,.form-grid textarea:focus,.form-grid select:focus{border-color:#bd8186}
+.form-grid label[hidden]{display:none}
+.consent{display:flex;gap:12px;align-items:flex-start;margin-top:18px;font-size:11px;line-height:1.6;color:#b9a49c;cursor:pointer}
+.consent input{accent-color:#bd8186;width:18px;height:18px;flex:none;margin:1px 0 0}
+.consent a{color:#e8d9d3;text-decoration:underline;text-underline-offset:2px}
+.send-row{display:grid;gap:10px}
+.send-row .outline-btn{justify-content:center}
+
+.cart-total span small{display:block;font-size:10px;color:#a9958d;letter-spacing:0;text-transform:none;margin-top:4px}
+#checkoutStart:disabled{opacity:.45;cursor:not-allowed}
+footer div{flex-wrap:wrap}

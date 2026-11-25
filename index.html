@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080606">
+<title>TRUECOSTFLOWERS — Цветы. Без правил.</title>
+<meta name="description" content="Авторские цветочные композиции TRUECOSTFLOWERS. Цветы по себестоимости. Доставка по Москве и МО от 60 минут, самовывоз бесплатно.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="TRUECOSTFLOWERS — Цветы. Без правил.">
+<meta property="og:description" content="Авторские букеты по себестоимости. Доставка по Москве и МО от 60 минут.">
+<meta property="og:image" content="https://static.tildacdn.com/tild3131-3461-4533-a461-323964633061/badge.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="https://static.tildacdn.com/tild3064-3063-4532-b836-303035623638/favicon.ico">
+<link rel="apple-touch-icon" href="https://static.tildacdn.com/tild3432-3733-4337-b765-383164303037/Favicon_152.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://truecostflowers.netlify.app/styles.css">
+<link rel="stylesheet" href="extra.css">
+</head>
+<body>
+<header class="header">
+ <a class="brand brand-logo" href="#home" aria-label="TRUECOSTFLOWERS"><img src="https://static.tildacdn.com/tild3863-6137-4134-b531-643334623136/Logo-small.svg" alt="TRUECOSTFLOWERS" width="190" height="40"></a>
+ <nav><a href="#catalog">Букеты</a><a href="#catalog">Каталог</a><a href="#about">О нас</a><a href="#delivery">Доставка</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a></nav>
+ <div class="head-actions"><button id="searchToggle" class="icon-button" aria-label="Поиск"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg></button><button id="favToggle" class="icon-button count-button" aria-label="Избранное"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 8.7c0 5.2-8.8 11-8.8 11s-8.8-5.8-8.8-11a4.7 4.7 0 0 1 8.8-2.2 4.7 4.7 0 0 1 8.8 2.2Z"/></svg><i id="favCount">0</i></button><button id="cartToggle" class="icon-button count-button" aria-label="Корзина"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16l-1.2 12H5.2L4 8Z"/><path d="M8 9V6a4 4 0 0 1 8 0v3"/></svg><i id="cartCount">0</i></button><button class="burger icon-button" id="menuToggle" aria-label="Открыть меню"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button></div>
+</header>
+<div class="searchbar" id="searchbar"><input id="searchInput" placeholder="Найти букет…"><button id="searchClose">Закрыть</button></div>
+<main id="home">
+<section class="hero">
+ <div class="hero-image"><img src="https://truecostflowers.netlify.app/assets/hero-approved.webp" alt="Бордовые цветы TRUECOSTFLOWERS"></div>
+ <div class="hero-copy"><span class="spark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.5 14.7 9.3 21.5 12l-6.8 2.7L12 21.5l-2.7-6.8L2.5 12l6.8-2.7L12 2.5Z"/></svg></span><p class="eyebrow">TRUECOSTFLOWERS · МОСКВА</p><h1>Цветы.<br>Без правил.</h1>
+ <p class="hero-lead">Авторские композиции. Цветы по себестоимости. Доставка по Москве и МО от 60 минут.</p>
+ <a class="outline-btn hero-cta" href="#catalog">Выбрать букет <span class="arrow-mark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15.5M13.5 6l6 6-6 6"/></svg></span></a>
+ <div class="hero-note"><span>01 / 04</span><span>Авторские композиции</span></div></div>
+ <a class="hero-scroll" href="#catalog">ЛИСТАЙТЕ НИЖЕ <span class="arrow-mark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 4v15.5M6 13.5l6 6 6-6"/></svg></span></a>
+</section>
+<section class="category-strip">
+ <a href="#catalog" data-jump="Сезонные"><img src="https://truecostflowers.netlify.app/assets/img_0164.webp" alt="" onerror="this.style.display='none'"><span>Сезонные <b class="arrow-mark" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 17.5 17.5 6.5M8.5 6.5h9v9"/></svg></b></span></a>
+ <a href="#catalog" data-jump="Авторские"><img src="https://truecostflowers.netlify.app/assets/img_0183.webp" alt="" onerror="this.style.display='none'"><span>Авторские <b class="arrow-mark" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 17.5 17.5 6.5M8.5 6.5h9v9"/></svg></b></span></a>
+ <a href="#catalog" data-jump="Большие"><img src="https://truecostflowers.netlify.app/assets/img_0197.webp" alt="" onerror="this.style.display='none'"><span>Большие букеты <b class="arrow-mark" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 17.5 17.5 6.5M8.5 6.5h9v9"/></svg></b></span></a>
+ <a href="#catalog" data-jump="M"><img src="https://truecostflowers.netlify.app/assets/img_0173.webp" alt="" onerror="this.style.display='none'"><span>Размер M <b class="arrow-mark" aria-hidden="true"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 17.5 17.5 6.5M8.5 6.5h9v9"/></svg></b></span></a>
+</section>
+<section class="trust section-wrap" aria-label="TRUECOSTFLOWERS в цифрах">
+ <div><b>45K+</b><span>постоянных клиентов</span></div>
+ <div><b>8 лет</b><span>на рынке</span></div>
+ <div><b>Москва · Дубай</b><span>международная компания</span></div>
+</section>
+<section class="how section-wrap">
+ <div class="section-kicker">ПРОСТО И ПРОЗРАЧНО</div><h2>Как это<br>работает</h2>
+ <div class="steps"><article><b>01</b><h3>Выберите букет</h3><p>Найдите композицию, которая говорит за вас.</p></article><article><b>02</b><h3>Оформите заказ</h3><p>Укажите получателя, дату и удобное время доставки.</p></article><article><b>03</b><h3>Мы доставим</h3><p>Бережно привезём букет от 60 минут или подготовим к самовывозу.</p></article></div>
+</section>
+<section class="price-band"><div><span class="section-kicker">ПРОЗРАЧНЫЙ СЕРВИС</span><h2>Честная цена<br>без сюрпризов</h2></div>
+ <div class="price-tile"><b>M</b><span>3 600 — 8 900 ₽</span><small>сборка 2 100 ₽</small></div>
+ <div class="price-tile"><b>L · XL · XXL</b><span>9 000 — 20 900 ₽</span><small>сборка 2 750 ₽</small></div>
+ <div class="price-tile"><b>XXXL</b><span>от 21 000 ₽</span><small>сборка 20% бюджета</small></div>
+ <div class="seasonal-note"><b>Сезонные композиции</b><span class="seasonal-dash" aria-hidden="true"> — </span><span>стоимость букета и сборки</span> <small>уточняйте у менеджера.</small></div>
+</section>
+<section class="catalog section-wrap" id="catalog">
+ <div class="catalog-heading"><div><span class="section-kicker">КОЛЛЕКЦИЯ TRUECOSTFLOWERS</span><h2>Каталог</h2><p>Авторские букеты, собранные с любовью и по себестоимости.</p></div><span class="result-count" id="resultCount"></span></div>
+ <div class="catalog-tools"><div class="filters" id="filters">
+ <button class="filter active" data-filter="Все">Все</button><button class="filter" data-filter="Сезонные">Сезонные</button><button class="filter" data-filter="Авторские">Авторские</button><button class="filter" data-filter="Большие">Большие</button><button class="filter" data-filter="M">M</button>
+ </div><select id="sortSelect" aria-label="Сортировка"><option value="popular">По популярности</option><option value="low">Сначала дешевле</option><option value="high">Сначала дороже</option></select></div>
+ <div class="product-grid" id="productGrid"><div class="loading">Загружаем коллекцию…</div></div>
+</section>
+<section class="editorial section-wrap" id="about"><div class="editorial-image"><img src="https://truecostflowers.netlify.app/assets/img_0164.webp" alt="Цветочная композиция"></div><div><span class="section-kicker">О БРЕНДЕ</span><h2>Цветы,<br>которые говорят<br>за вас.</h2><p>TRUECOSTFLOWERS — первый в России цветочный сервис трукост. «True cost» значит «истинная цена»: вы покупаете цветы по себестоимости и отдельно платите за работу флориста. Мы берём свежие цветы у надёжных поставщиков и теплиц, а профессиональные флористы собирают и упаковывают каждый букет.</p><a class="text-link" href="#contacts">Связаться с нами <span class="arrow-mark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 17.5 17.5 6.5M8.5 6.5h9v9"/></svg></span></a></div></section>
+<section class="delivery section-wrap" id="delivery"><div><span class="section-kicker">ДОСТАВКА</span><h2>Быстро.<br>Надёжно.<br>По Москве и области.</h2></div><div class="delivery-list"><article><b class="delivery-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></b><div><h3>От 60 минут</h3><p>Согласуем ближайшее удобное время или привезём к выбранной дате.</p></div></article><article><b class="delivery-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></b><div><h3>Москва и МО — от 800 ₽</h3><p>Стоимость зависит от удалённости от центра и подтверждается менеджером.</p></div></article><article><b class="delivery-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 9.5 12 4l8 5.5V20H4V9.5Z"/><path d="M9.5 20v-6h5v6"/></svg></b><div><h3>Самовывоз — бесплатно</h3><p>Ул. Сергия Радонежского, 15–17 ст2, лофт‑квартал PANGAEA. Ежедневно 9:00—22:00.</p></div></article></div></section>
+<section class="care-feature section-wrap">
+ <div class="care-photo"><img src="https://truecostflowers.netlify.app/assets/img_0160.webp" alt="Авторская композиция из пионовидных хризантем в вазе"></div>
+ <div class="care-copy"><span class="section-kicker">ВНИМАНИЕ К ДЕТАЛЯМ</span><h2>Бережная<br>упаковка.</h2>
+ <p>Каждый букет мы готовим к вручению с особым вниманием — чтобы композиция сохранила форму, свежесть и впечатление с первой секунды.</p>
+ <a class="text-link" href="#catalog">Выбрать букет <span class="arrow-mark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 17.5 17.5 6.5M8.5 6.5h9v9"/></svg></span></a></div>
+ </section>
+<section class="reviews section-wrap" id="reviews"><span class="section-kicker">ОТЗЫВЫ</span><h2>Нам доверяют<br>важные моменты</h2>
+ <div class="review-list">
+ <blockquote><p>Огромное вам спасибо за такой шикарный букет! И заказ привезли раньше, чем планировали, — это круто! Полный восторг!</p></blockquote>
+ <blockquote><p>Учитывая, что я нахожусь за границей, раньше постоянно что-то было не так. С вами одно удовольствие: всё чётко, вовремя, прозрачно и понятно.</p></blockquote>
+ <blockquote><p>Мама звонила с таким восторгом: «Дети, что это за цветы такие? Я в жизни таких не видела!» Мы хотели именно такой реакции.</p></blockquote>
+ </div>
+</section>
+<section class="faq section-wrap"><span class="section-kicker">ЕСТЬ ВОПРОСЫ?</span><h2>Частые вопросы</h2>
+ <details><summary>Что входит в стоимость букета?</summary><p>Стоимость цветов по себестоимости и стоимость сборки показываются отдельно. Итог с доставкой подтверждает менеджер.</p></details>
+ <details><summary>Можно ли изменить состав или размер?</summary><p>Да, пожелания можно указать в комментарии к заказу. Менеджер подтвердит возможность и стоимость.</p></details>
+ <details><summary>Как оплатить заказ?</summary><p>После подтверждения заказа менеджер отправит ссылку или инструкции для оплаты.</p></details>
+ <details><summary>Можно ли забрать букет самому?</summary><p>Да, самовывоз бесплатный: ул. Сергия Радонежского, 15–17 ст2, лофт‑квартал PANGAEA, ежедневно с 9:00 до 22:00.</p></details>
+ <details><summary>Есть ли фиксированная цена на сезонные композиции?</summary><p>Нет. Стоимость сезонных букетов и сборки уточняется у менеджера.</p></details>
+</section>
+<section class="contact-panel section-wrap" id="contacts"><div><span class="section-kicker">ВАША ИСТОРИЯ — НАШЕ ВДОХНОВЕНИЕ</span><h2>Создадим<br>что-то особенное?</h2><p>Расскажите, какой букет вы ищете — вместе найдём композицию, которая попадёт точно в сердце.</p><a class="outline-btn final-cta" href="https://t.me/truecostflowers" target="_blank" rel="noopener">Обсудить мой букет <span class="arrow-mark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 17.5 17.5 6.5M8.5 6.5h9v9"/></svg></span></a></div><div class="contact-links"><a href="https://t.me/truecostflowers" target="_blank" rel="noopener">Telegram <span class="arrow-mark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 17.5 17.5 6.5M8.5 6.5h9v9"/></svg></span></a><a href="https://wa.me/79267318640" target="_blank" rel="noopener">WhatsApp <span class="arrow-mark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 17.5 17.5 6.5M8.5 6.5h9v9"/></svg></span></a><a href="https://vk.com/truecostflowers" target="_blank" rel="noopener">ВКонтакте <span class="arrow-mark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6.5 17.5 17.5 6.5M8.5 6.5h9v9"/></svg></span></a><a href="tel:+79267318640">+7 926 731-86-40</a><a href="mailto:zakaz@truecostflowers.ru">zakaz@truecostflowers.ru</a></div></section>
+</main>
+<footer><a class="brand brand-logo" href="#home" aria-label="TRUECOSTFLOWERS"><img src="https://static.tildacdn.com/tild3863-6137-4134-b531-643334623136/Logo-small.svg" alt="TRUECOSTFLOWERS" width="190" height="40"></a><div><a href="#catalog">Каталог</a><a href="#about">О нас</a><a href="#delivery">Доставка</a><a href="#contacts">Контакты</a><a href="https://truecostflowers.ru/offer" target="_blank" rel="noopener">Договор оферты</a><a href="https://truecostflowers.ru/policy-ru" target="_blank" rel="noopener">Политика конфиденциальности</a><button class="cookie-settings-link" id="cookieSettingsLink" type="button">Настройки cookie</button></div><small>© ИП Добрыднева · г. Москва, ул. Сергия Радонежского, 15–17 ст2 · ежедневно 9:00—22:00</small></footer>
+
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="cartDrawer"><div class="drawer-head"><h2>Корзина</h2><button class="close" data-close>×</button></div><div id="cartItems"></div><div class="cart-total" id="cartTotal"></div><button class="solid-btn wide" id="checkoutStart"><span>Оформить заказ <span class="arrow-mark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15.5M13.5 6l6 6-6 6"/></svg></span></span></button></aside>
+<aside class="drawer" id="favDrawer"><div class="drawer-head"><h2>Избранное</h2><button class="close" data-close>×</button></div><div id="favItems"></div></aside>
+<div class="modal" id="productModal"><button class="close modal-close" data-close>×</button><div id="modalContent"></div></div>
+<div class="modal checkout-modal" id="checkoutModal"><button class="close modal-close" data-close>×</button><span class="section-kicker">ПОСЛЕДНИЙ ШАГ</span><h2>Оформление заказа</h2><form id="checkoutForm"><div class="form-grid">
+<label>Ваше имя<input name="name" required autocomplete="name" placeholder="Как к вам обращаться"></label><label>Ваш телефон<input name="phone" type="tel" required autocomplete="tel" placeholder="+7 ___ ___-__-__"></label>
+<label class="full">Способ получения<select name="method" id="methodSelect"><option value="Доставка">Доставка по Москве и МО</option><option value="Самовывоз">Самовывоз — бесплатно</option></select></label>
+<label>Имя получателя<input name="recipient" placeholder="Если букет для другого человека"></label><label>Телефон получателя<input name="recipientPhone" type="tel" placeholder="Чтобы курьер мог связаться"></label>
+<label class="full" id="addressField">Адрес доставки<input name="address" id="addressInput" required autocomplete="street-address" placeholder="Улица, дом, квартира"></label>
+<label>Дата<input name="date" type="date"></label><label>Время<input name="time" placeholder="Например, 18:00"></label>
+<label class="full">Текст открытки<textarea name="card" rows="2" placeholder="Необязательно. Напишем от руки и вложим в букет"></textarea></label>
+<label class="full">Комментарий<textarea name="comment" rows="2" placeholder="Пожелания к букету или доставке"></textarea></label>
+</div>
+<label class="consent"><input type="checkbox" name="consent" required><span>Я согласен(на) с <a href="https://truecostflowers.ru/offer" target="_blank" rel="noopener">договором оферты</a> и даю согласие на обработку персональных данных по <a href="https://truecostflowers.ru/policy-ru" target="_blank" rel="noopener">политике конфиденциальности</a>.</span></label>
+<p class="form-hint">Менеджер свяжется с вами, подтвердит наличие, состав, доставку и итоговую сумму.</p>
+<div class="send-row"><button class="solid-btn wide" type="submit" name="via" value="tg"><span>Отправить в Telegram <span class="arrow-mark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 12h15.5M13.5 6l6 6-6 6"/></svg></span></span></button><button class="outline-btn wide" type="submit" name="via" value="wa"><span>Отправить в WhatsApp</span></button></div></form></div>
+<section class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Настройки cookie" aria-live="polite" hidden>
+ <div class="cookie-banner-copy"><span class="section-kicker">ВАШ КОМФОРТ ВАЖЕН</span><h2>Мы используем cookie</h2><p>Обязательные технологии помогают сайту работать. Необязательные cookie можно разрешить или отклонить — ваш выбор можно изменить в любой момент.</p><a href="#cookieInfo" id="cookieInfoLink">Подробнее о cookie</a></div>
+ <div class="cookie-actions"><button class="solid-btn" id="cookieAccept">Принять все</button><button class="outline-btn" id="cookieReject">Отклонить необязательные</button><button class="cookie-text-btn" id="cookieCustomize">Настроить</button></div>
+</section>
+<div class="cookie-modal" id="cookieModal" role="dialog" aria-modal="true" aria-labelledby="cookieModalTitle" hidden><div class="cookie-modal-card"><button class="close cookie-modal-close" id="cookieModalClose" aria-label="Закрыть">×</button><span class="section-kicker">ПРЕДПОЧТЕНИЯ</span><h2 id="cookieModalTitle">Настройки cookie</h2><p>Вы можете выбрать, какие необязательные технологии разрешить. Необходимые cookie и локальное хранение данных, нужные для корзины и настроек сайта, работают для основных функций.</p><div class="cookie-choice"><div><b>Необходимые</b><small>Нужны для работы сайта и сохранения выбранных настроек.</small></div><span class="cookie-required">Всегда включены</span></div><label class="cookie-choice"><span><b>Аналитические</b><small>Помогают понять, как посетители пользуются сайтом. Сейчас аналитические сервисы не подключены.</small></span><input type="checkbox" id="cookieAnalytics"></label><label class="cookie-choice"><span><b>Рекламные</b><small>Используются для персонализации рекламы. Сейчас рекламные cookie не подключены.</small></span><input type="checkbox" id="cookieMarketing"></label><button class="solid-btn wide" id="cookieSave">Сохранить выбор</button></div></div>
+<div class="toast" id="toast"></div>
+<script src="https://truecostflowers.netlify.app/products-data.js"></script><script src="app.js"></script>
+</body></html>
